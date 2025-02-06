@@ -7,7 +7,7 @@ created: 2025-02-06
 
 # Transaction Revert and MEV on L2s
 
-In this study, we examine the current state of transaction revert rates in layer-2 (L2) blockchain. As rollups gain popularity, the MEV trilemma becomes increasingly relevant. Although mempools are often encrypted and follow a first-come, first-served order, low gas fees make spamming the mempool an appealing strategy. We evaluate the effectiveness of this approach using empirical data and develop a theoretical model to estimate how this strategy can be optimized with the introduction of revert protection mechanisms on rollups.
+As Ethereum rollups gain adoption, the dynamics of Maximum Extractable Value (MEV) on Layer-2 (L2) blockchains are evolving, presenting new challenges and opportunities for arbitrageurs, liquidators, and sequencers. This study provides an empirical analysis of transaction revert rates and MEV strategies on rollups, addressing how low gas fees and mempool structures influence MEV extraction. We examine the effectiveness of spam-based strategies on L2s and introduce a theoretical model to assess their optimization under proposed revert protection mechanisms. 
 
 ## Background and Problem Statement
 The evolution of MEV extraction has undergone significant transformations, beginning with Ethereum’s early days. The introduction of MEV Boost mechanisms, followed by Proposer-Builder Separation (PBS), marked a pivotal shift in how MEV was captured on Ethereum, and now, with the rise of rollups, layer-2 (L2) blockchains, history appears to be repeating itself.
