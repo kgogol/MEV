@@ -18,6 +18,7 @@ The Duncan upgrade resulted in a significant reduction in gas fees on L2 and a s
 
 Looking ahead, major developments such as Unichain, the proposed sequencer-builder separation, and MEV tax could introduce new paradigms for MEV extraction on L2s.
 Another recent innovation is the introduction of revert protection mechanisms. 
+
 This paper explores these developments, analyzing the reverted transaction on L2s, their link with MEV extraction, and the impact of revert protection on the broader Ethereum ecosystem.
 
 The research questions are:
