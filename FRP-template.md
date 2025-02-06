@@ -50,6 +50,6 @@ Flashbots article
 Academic papers (to be submited to one of the peer-reviwed conferences)
 
 ## References
-Dashbord wiht Trasnaction Revert
-Cross-rollup MEV
-Unichain whitepaper (and Falshbots blogs)
+- Dashbord wiht Trasnaction Revert
+- Cross-rollup MEV
+- Unichain whitepaper (and Falshbots blogs)
