@@ -13,7 +13,7 @@ In this paper, we analyze the effectiveness of spam-based MEV strategies using e
 ## Background and Problem Statement
 The evolution of MEV extraction has undergone significant transformations, beginning with Ethereum’s early days. The introduction of MEV Boost mechanisms, followed by Proposer-Builder Separation (PBS), marked a pivotal shift in how MEV was captured on Ethereum, and now, with the rise of rollups, layer-2 (L2) blockchains, history appears to be repeating itself.
 
-Rollups are gaining traction, reshaping transaction execution and settlement dynamics. However, MEV remains an inherent challenge, leading to what is often described as the MEV trilemma—where avoiding MEV extraction entirely is nearly impossible.
+Rollups are gaining traction, reshaping transaction execution and settlement dynamics. However, MEV remains an inherent challenge, leading to what is often described as the MEV trilemma—where avoiding MEV extraction entirely is impossible.
 The Duncan upgrade resulted in a significant reduction in gas fees on L2 and a surge in the transaction revert rate, highlighting the ongoing evolution of MEV strategies. 
 
 Looking ahead, major developments such as Unichain, the proposed sequencer-builder separation, and MEV tax could introduce new paradigms for MEV extraction on L2s. Additionally, Uniswap v4 introduced hooks, further influencing how liquidity and transactions interact within Uniswap.
