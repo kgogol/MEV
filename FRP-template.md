@@ -54,3 +54,4 @@ Academic papers (to be submited to one of the peer-reviwed conferences)
 - Dashbord wiht Trasnaction Revert
 - Cross-rollup MEV
 - Unichain whitepaper (and Falshbots blogs)
+- Zhu, B. Z., Wan, X., Moallemi, C. C., Robinson, D., & Bachu, B. (2024). Quantifying the Value of Revert Protection. arXiv. https://arxiv.org/abs/2410.19106
