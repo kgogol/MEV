@@ -32,16 +32,17 @@ This study analyzes reverted transaction data and swap data from major Ethereum 
 The dataset is sourced from blockchain archive nodes provided by [to be decided]~\cite{x}. The analyzed swaps, transactions, and block ranges are detailed in Table~\ref{tab:dataset}. Using event logs from the \emph{Swap} method, historical spot prices and liquidity levels within liquidity pools are recalculated. For Uniswap~v3, the spot price after a swap is extracted from the \textit{sqrtPriceX96} field in the event logs. Market data for the ETH-USDC exchange rate on centralized exchanges (CEXs) is obtained from Binance APIs~\cite{Binance_API}.  
 To analyze MEV-related strategies, we employ a matching approach that links failed transactions to subsequent successful ones. When a transaction succeeds, event logs from Uniswap, Aave or other DeFi protocols can be accessed, allowing for the extraction of exact parameters and the calculation of the profitability of the executed strategy. The process for each rollup follows these steps:
 
-1 Identify all reverted transactions and group them by destination address.
-2 Determine the most frequently used destination addresses, such as Uniswap pools and Aave pools.
-3 Identify the primary senders of these transactions.
-4 Locate successful transactions originating from the same senders within the relevant DeFi pools and extract the corresponding event logs (as event logs are not available for reverted transactions).
-5 Assess the profitability of the identified strategy, determining whether the transactions are linked to MEV extraction.
+1) Identify all reverted transactions and group them by destination address.
+2) Determine the most frequently used destination addresses, such as Uniswap pools and Aave pools.
+3) Identify the primary senders of these transactions.
+4) Locate successful transactions originating from the same senders within the relevant DeFi pools and extract the corresponding event logs (as event logs are not available for reverted transactions).
+5) Assess the profitability of the identified strategy, determining whether the transactions are linked to MEV extraction.
 
 Timeline:
-Month 1: Data Gatering and Parsin
-Month 2: Data anaysis, analysis per protocols
-Month 3: Writing the findings
+
+- Month 1: Data Gatering and Parsin
+- Month 2: Data anaysis, analysis per protocols
+- Month 1-2: Writing the findings
 
 Delivaratbles:
 Python lirbary that explorts this
