@@ -51,7 +51,7 @@ Flashbots article
 Academic papers (to be submited to one of the peer-reviwed conferences)
 
 ## References
-- Adams, H., Toda, M., Karys, A., Wan, X., Gretzke, D., Zhong, E., Wong, Z., Marzec, D., Miller, R., Hasu, & Floersch, K., & Robinson, D. (2024). Unichain. https://docs.unichain.org/whitepaper.pdf
+- Adams, H., Toda, M., Karys, A., Wan, X., Gretzke, D., Zhong, E., Wong, Z., Marzec, D., Miller, R., Hasu, & Floersch, K., & Robinson, D. (2024). Unichain Whitepaper. https://docs.unichain.org/whitepaper.pdf
 - Zhu, B. Z., Wan, X., Moallemi, C. C., Robinson, D., & Bachu, B. (2024). Quantifying the Value of Revert Protection. arXiv. https://arxiv.org/abs/2410.19106
 - Flaashbots Post (2024). It’s time to talk about L2 MEV. https://collective.flashbots.net/t/it-s-time-to-talk-about-l2-mev/3593/1
 - Flashbots Dune Dashboard. Multichain Transaction Reverts. https://dune.com/flashbots/multichain-transaction-reverts
