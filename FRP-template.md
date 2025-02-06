@@ -14,11 +14,10 @@ In this paper, we analyze the effectiveness of spam-based MEV strategies using e
 The evolution of MEV extraction has undergone significant transformations, beginning with Ethereum’s early days. The introduction of MEV Boost mechanisms, followed by Proposer-Builder Separation (PBS), marked a pivotal shift in how MEV was captured on Ethereum, and now, with the rise of rollups, layer-2 (L2) blockchains, history appears to be repeating itself.
 
 Rollups are gaining traction, reshaping transaction execution and settlement dynamics. However, MEV remains an inherent challenge, leading to what is often described as the MEV trilemma—where avoiding MEV extraction entirely is impossible.
-The Duncan upgrade resulted in a significant reduction in gas fees on L2 and a surge in the transaction revert rate, highlighting the ongoing evolution of MEV strategies. 
+The Duncan upgrade resulted in a significant reduction in gas fees on L2 and a surge in the transaction revert rate, highlighting the ongoing evolution of MEV strategies. Although initially blob transactions were relatively inexpensive, their rising costs could pose new challenges for rollup scalability and MEV extraction strategies.
 
-Looking ahead, major developments such as Unichain, the proposed sequencer-builder separation, and MEV tax could introduce new paradigms for MEV extraction on L2s. Additionally, Uniswap v4 introduced hooks, further influencing how liquidity and transactions interact within Uniswap.
-Another recent innovation is the introduction of revert protection mechanisms. Although initially blob transactions were relatively inexpensive, their rising costs could pose new challenges for rollup scalability and MEV extraction strategies.
-
+Looking ahead, major developments such as Unichain, the proposed sequencer-builder separation, and MEV tax could introduce new paradigms for MEV extraction on L2s.
+Another recent innovation is the introduction of revert protection mechanisms. 
 This paper explores these developments, analyzing the reverted transaction on L2s, their link with MEV extraction, and the impact of revert protection on the broader Ethereum ecosystem.
 
 The research questions are:
