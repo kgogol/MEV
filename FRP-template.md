@@ -36,15 +36,15 @@ To analyze MEV-related strategies, we employ a matching approach that links fail
 5) Assess the profitability of the identified strategy, determining whether the transactions are linked to MEV extraction.
 
 Timeline:
-
 - Month 1: Data Gatering and Parsin
 - Month 2: Data anaysis, analysis per protocols
 - Month 1-2: Writing the findings
 
 Delivaratbles:
-Python lirbary that explorts this
-Flashbots article
-Academic papers (to be submited to one of the peer-reviwed conferences)
+- open-source Python project that explores revert transactions on EVM L2s and map them to MEV strategies,
+- an academic paper to be submited to one of the peer-reviewed conferences (e.g. AFT, FC),
+- a short article published in the HackMD research publication,
+- a presentation given at one of community events,
 
 ## References
 - Adams, H., Toda, M., Karys, A., Wan, X., Gretzke, D., Zhong, E., Wong, Z., Marzec, D., Miller, R., Hasu, & Floersch, K., & Robinson, D. (2024). Unichain Whitepaper. https://docs.unichain.org/whitepaper.pdf
