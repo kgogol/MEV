@@ -11,18 +11,17 @@ As Ethereum rollups gain adoption, the dynamics of Maximum Extractable Value (ME
 In this paper, we analyze the effectiveness of spam-based MEV strategies using empirical data from major rollups and DeFi protocols. Additionally, we evaluate how these strategies can be optimized with the revert protection mechanisms.
 
 ## Background and Problem Statement
-The evolution of MEV extraction has undergone significant transformations, beginning with Ethereum’s early days. The introduction of MEV Boost mechanisms, followed by Proposer-Builder Separation (PBS), marked a pivotal shift in how MEV was captured on Ethereum, and now, with the rise of rollups, layer-2 (L2) blockchains, history appears to be repeating itself.
+The evolution of MEV extraction has undergone significant transformations, beginning with Ethereum’s early days. The introduction of MEV Boost mechanisms, followed by Proposer-Builder Separation (PBS), tranformed how MEV was captured on Ethereum, and now, with the rise of rollups, layer-2 (L2) blockchains, history appears to be repeating itself.
 
 Rollups are gaining traction, reshaping transaction execution and settlement dynamics. However, MEV remains an inherent challenge, leading to what is often described as the MEV trilemma—where avoiding MEV extraction entirely is impossible.
-The Duncan upgrade resulted in a significant reduction in gas fees on L2 and a surge in the transaction revert rate, highlighting the ongoing evolution of MEV strategies. Although initially blob transactions were relatively inexpensive, their rising costs could pose new challenges for rollup scalability and MEV extraction strategies.
+The Dencun upgrade resulted in a significant reduction in gas fees on L2 and a surge in the transaction revert rate, indicating the ongoing evolution of MEV strategies. Although initially blob transactions were relatively inexpensive, their rising costs could pose new challenges for rollup scalability and MEV extraction strategies.
 
-Looking ahead, major developments such as Unichain, the proposed sequencer-builder separation, and MEV tax could introduce new paradigms for MEV extraction on L2s.
-Another recent innovation is the introduction of revert protection mechanisms. 
+Looking ahead, major developments such as Unichain with the proposed sequencer-builder separation, MEV tax and revert protection mechanisms could introduce new paradigms for MEV extraction on L2s.
 
-This paper explores these developments, analyzing the reverted transaction on L2s, their link with MEV extraction, and the impact of revert protection on the broader Ethereum ecosystem.
+This research explores these developments, analyzing the reverted transaction on L2s, their link with MEV extraction, and the impact of revert protection on the broader Ethereum ecosystem.
 
 The research questions are:
-1) We analyze user behavior related to reverted transactions and map it to MEV strategies and taxonomy, particularly liquidation and arbitrage (atomic and non-atomic).  
+1) We analyze user behavior related to reverted transactions and map it to MEV strategies and taxonomy, particularly arbitrage (atomic and non-atomic), liqudiations and other.  
 2) We conduct an empirical analysis of reverted transactions on Ethereum rollups and estimate the amount of MEV extracted through arbitrage. Additionally, we assess the profitability of MEV strategies on L2s.  
 3) We evaluate the impact of revert protection on MEV strategies, rollups, and the underlying L1 consensus, particularly in relation to blob pricing. 
 
