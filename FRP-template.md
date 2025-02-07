@@ -21,7 +21,7 @@ Looking ahead, major developments such as Unichain with the proposed sequencer-b
 This research explores these developments and analyzes the reverted transaction on L2s with the goal to attribute them to the MEV extraction strategies. In particular, the research questions are:
 1) How do reverted transactions correlate with different MEV strategies/taxonomy, such as atomic and non-atomic arbitrage, liquidations, and other forms of extraction? What patterns can be identified in user behavior related to reverted transactions?
 2) What is the scale of spam-based MEV extraction on Ethereum rollups, based on empirical analysis of reverted transactions? How does spam-based MEV profitability compare across different L2 solutions and DeFi protocols?
-3)  What is can be the impact of revert protection on these MEV strategies, rollup economics, and L1 consensus mechanisms, particularly in relation to blob pricing?
+3)  What impact can revert protection mechanism have on these MEV strategies, rollup economics, and L1 consensus mechanisms in relation to blob pricing?
 
 ## Plan and Deliverables
 This study analyzes reverted transaction data and swap data from major Ethereum rollups, including Arbitrum, Base, and Optimism (optimistic rollups), as well as ZKsync Era (a ZK-rollup).
