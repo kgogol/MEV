@@ -21,10 +21,12 @@ Looking ahead, major developments such as Unichain with the proposed sequencer-b
 This research explores these developments and analyzes the reverted transaction on L2s with the goal to attribute them to the MEV extraction strategies. In particular, the research questions are:
 1) How do reverted transactions correlate with different MEV strategies/taxonomy, such as atomic and non-atomic arbitrage, liquidations, and other forms of extraction? What patterns can be identified in user behavior related to reverted transactions?
 2) What is the scale of spam-based MEV extraction on Ethereum rollups, based on empirical analysis of reverted transactions? How does spam-based MEV profitability compare across different L2 solutions and DeFi protocols?
-3)  What impact can revert protection mechanism have on these MEV strategies, rollup economics, and L1 consensus mechanisms in relation to blob pricing?
+3)  What impact can revert protection mechanism have on these MEV strategies, rollup economics, and Ethereum in relation to blob pricing?
 
 ## Plan and Deliverables
-This study analyzes reverted transaction data and swap data from major Ethereum rollups, including Arbitrum, Base, and Optimism (optimistic rollups), as well as ZKsync Era (a ZK-rollup).
+This study analyzes reverted transaction data from the major EVM-compatible rollups such as Arbitrum, Optimis, Base, ZKsync since the Dencun upgrade (March 2023) until March 2024
+
+and swap data from major Ethereum rollups, including Arbitrum, Base, and Optimism (optimistic rollups), as well as ZKsync Era (a ZK-rollup).
 
 The dataset is sourced from blockchain archive nodes provided by [to be decided]~\cite{x}. The analyzed swaps, transactions, and block ranges are detailed in Table~\ref{tab:dataset}. Using event logs from the \emph{Swap} method, historical spot prices and liquidity levels within liquidity pools are recalculated. For Uniswap~v3, the spot price after a swap is extracted from the \textit{sqrtPriceX96} field in the event logs. Market data for the ETH-USDC exchange rate on centralized exchanges (CEXs) is obtained from Binance APIs~\cite{Binance_API}.  
 To analyze MEV-related strategies, we employ a matching approach that links failed transactions to subsequent successful ones. When a transaction succeeds, event logs from Uniswap, Aave or other DeFi protocols can be accessed, allowing for the extraction of exact parameters and the calculation of the profitability of the executed strategy. The process for each rollup follows these steps:
