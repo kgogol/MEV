@@ -16,15 +16,12 @@ The evolution of MEV extraction has undergone significant transformations, begin
 Rollups are gaining traction, reshaping transaction execution and settlement dynamics. However, MEV remains an inherent challenge, leading to what is often described as the MEV trilemma—where avoiding MEV extraction entirely is impossible.
 The Dencun upgrade resulted in a significant reduction in gas fees on L2 and a surge in the transaction revert rate, indicating the ongoing evolution of MEV strategies. Although initially blob transactions were relatively inexpensive, their rising costs could pose new challenges for rollup scalability and MEV extraction strategies.
 
-Looking ahead, major developments such as Unichain with the proposed sequencer-builder separation, MEV tax and revert protection mechanisms could introduce new paradigms for MEV extraction on L2s.
+Looking ahead, major developments such as Unichain with the proposed sequencer-builder separation, MEV tax and revert protection mechanisms could introduce new paradigms for MEV extraction on L2s. 
 
-This research explores these developments, analyzing the reverted transaction on L2s, their link with MEV extraction, and the impact of revert protection on the broader Ethereum ecosystem.
-
-The research questions are:
-1) We analyze user behavior related to reverted transactions and map it to MEV strategies and taxonomy, particularly arbitrage (atomic and non-atomic), liqudiations and other.  
-2) We conduct an empirical analysis of reverted transactions on Ethereum rollups and estimate the amount of MEV extracted through arbitrage. Additionally, we assess the profitability of MEV strategies on L2s.  
-3) We evaluate the impact of revert protection on MEV strategies, rollups, and the underlying L1 consensus, particularly in relation to blob pricing. 
-
+This research explores these developments, analyzing the reverted transaction on L2s with the goal to attribute them to the MEV extraction strategies. In particular, the research questions are:
+1) How do reverted transactions correlate with different MEV strategies/taxonomy, such as atomic and non-atomic arbitrage, liquidations, and other forms of extraction? What patterns can be identified in user behavior related to reverted transactions?
+2) What is the scale of spam-based MEV extraction on Ethereum rollups, based on empirical analysis of reverted transactions? How does spam-based MEV profitability compare across different L2 solutions and DeFi protocols?
+3)  What is can be the impact of revert protection on these MEV strategies, rollup economics, and L1 consensus mechanisms, particularly in relation to blob pricing?
 
 ## Plan and Deliverables
 This study analyzes reverted transaction data and swap data from major Ethereum rollups, including Arbitrum, Base, and Optimism (optimistic rollups), as well as ZKsync Era (a ZK-rollup).
