@@ -18,7 +18,7 @@ The Dencun upgrade resulted in a significant reduction in gas fees on L2 and a s
 
 Looking ahead, major developments such as Unichain with the proposed sequencer-builder separation, MEV tax and revert protection mechanisms could introduce new paradigms for MEV extraction on L2s. 
 
-This research explores these developments, analyzing the reverted transaction on L2s with the goal to attribute them to the MEV extraction strategies. In particular, the research questions are:
+This research explores these developments and analyzes the reverted transaction on L2s with the goal to attribute them to the MEV extraction strategies. In particular, the research questions are:
 1) How do reverted transactions correlate with different MEV strategies/taxonomy, such as atomic and non-atomic arbitrage, liquidations, and other forms of extraction? What patterns can be identified in user behavior related to reverted transactions?
 2) What is the scale of spam-based MEV extraction on Ethereum rollups, based on empirical analysis of reverted transactions? How does spam-based MEV profitability compare across different L2 solutions and DeFi protocols?
 3)  What is can be the impact of revert protection on these MEV strategies, rollup economics, and L1 consensus mechanisms, particularly in relation to blob pricing?
