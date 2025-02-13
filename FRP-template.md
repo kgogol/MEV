@@ -25,7 +25,7 @@ This research explores these developments and analyzes the reverted transactions
 3) What impact can revert protection mechanisms have on these MEV strategies, rollup economics, and Ethereum in relation to blob pricing?
    
 ## Plan and Deliverables
-This study analyzes reverted transaction data from major EVM-compatible rollups, such as Arbitrum, Optimism, Base, and ZKsync. The dataset is sourced from blockchain archive nodes from the Dencun upgrade (March 2023) until today. For the executed transaction, event logs of Uniswap V2, V3, V4, or other DeFi protocols are parsed to retrieve the DeFi transaction details. Binance (with 1s data granularity) is used as a source of off-chain market prices and acts as a benchmark CEX.
+This study analyzes reverted transaction data from major EVM-compatible rollups, such as Arbitrum, Optimism, Base, ZKsync and recently launched Unichain. The dataset is sourced from blockchain archive nodes (via Dune, Nansen, Alchemy, Allium or similar platform) from the Dencun upgrade (March 2023) until today. For the executed transaction, event logs of Uniswap V2, V3, V4, or other DeFi protocols are parsed to retrieve the DeFi transaction details. Binance (with 1s data granularity) is used as a source of off-chain market prices and acts as a benchmark CEX.
 
 The major challenge of this research is the fact that DeFi smart contracts do not register event logs of failed transactions. Thus, the failed transactions must be matched to subsequent successful ones. When a transaction succeeds, event logs from Uniswap, Aave, or other DeFi protocols can be parsed, allowing for the extraction of exact transaction parameters and the calculation of the profitability of the executed MEV strategy.
 
